@@ -113,7 +113,7 @@ gameOverSurface = pygame.image.load("assets/message.png").convert_alpha()
 gameOverSurface = pygame.transform.scale2x(gameOverSurface)
 gameOverRectangle = gameOverSurface.get_rect(center = (288, 512))
 
-robertSounds = ["sfx_braila.wav", "sfx_lugoj.wav", "sfx_testamentul.wav", "sfx_satulBarateaz.wav", "sfx_samir.wav", "sfx_mediumRight.wav", "sfx_mediumLeft.wav", "sfx_concentrateSamir.wav"]
+robertSounds = ["sfx_braila.wav", "sfx_lugoj.wav", "sfx_testamentul.wav", "sfx_satulBarateaz.wav", "sfx_samir.wav", "sfx_mediumRight.wav", "sfx_mediumLeft.wav", "sfx_concentrateSamir.wav", "sfx_mama.wav", "sfx_ba.wav", "sfx_rageQuit.wav", "sfx_caca.wav", "sfx_robertMasterplan.wav"]
 
 barkSound = pygame.mixer.Sound("sounds/sfx_bark.wav")
 scoreSound = pygame.mixer.Sound("sounds/sound_sfx_point.wav")
