@@ -67,7 +67,7 @@ def updateScore(score, highscore):
 
     return highscore
 
-pygame.mixer.pre_init(frequency = 44100, size = 16, channels = 1,  buffer = 512)
+pygame.mixer.init()
 pygame.init()
 pygame.display.set_caption("FlappyTara")
 screen = pygame.display.set_mode((576, 1024)) # this sets the size format of the window
